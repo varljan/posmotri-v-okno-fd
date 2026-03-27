@@ -190,7 +190,8 @@ ol {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
-  max-height: 300px;
+  width: 399px;
+  height: 298px;
   overflow-y: auto;
 }
 
@@ -309,9 +310,9 @@ ol {
 }
 
 .more-button {
-  inline-size: calc(100% - 4px);
-  margin: 0 2px 2px;
   min-height: 34px;
+  margin: 0 2px 2px;
+  inline-size: calc(100% - 4px);
 }
 
 .result__video-container,
